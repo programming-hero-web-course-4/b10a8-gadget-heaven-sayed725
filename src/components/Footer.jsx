@@ -2,9 +2,10 @@
 
 const Footer = () => {
     return (
-       <div className="bg-blue-500">
-        <h3 className="text-3xl font-bold text-center">Gadget Heaven</h3>
+       <div className="">
+        <h3 className="text-3xl font-bold text-center mt-[80px]">Gadget Heaven</h3>
         <p className="font-semibold opacity-70 text-center pt-3">Leading the way in cutting-edge technology and innovation.</p>
+        <hr className="mt-5 bg-slate-100" />
 
          <footer className="footer flex justify-between lg:w-9/12 mx-auto bg-white p-10 text-black"> 
         <nav>

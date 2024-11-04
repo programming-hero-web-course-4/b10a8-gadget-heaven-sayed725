@@ -5,7 +5,7 @@ const Categories = ({ categories }) => {
   return (
     <div
       role="tablist"
-      className="tabs tabs-boxed w-full flex flex-col items-center gap-6"
+      className="tabs  w-full flex flex-col items-center gap-10 rounded-xl shadow-xl py-10 bg-white"
     >
       {categories.map((category) => (
         <NavLink
@@ -13,8 +13,8 @@ const Categories = ({ categories }) => {
           to={`/category/${category.category}`}
           role="tab"
           className={({ isActive }) =>
-            `tab text-2xl font-[#09080F99] font-semibold btn bg-slate-200 rounded-3xl ${
-              isActive ? "tab-active" : ""
+            `tab text-2xl font-[#09080F99] hover:bg-[#9538E2] hover:text-white  rounded-3xl font-semibold btn ${
+              isActive ? "tab-active bg-[#9538E2] text-white" : ""
             }`
           }
         >
