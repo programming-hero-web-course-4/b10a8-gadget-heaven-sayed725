@@ -8,6 +8,7 @@ import ErrorPage from './Pages/ErrorPage.jsx'
 import Home from './Pages/Home.jsx'
 import Statistics from './Pages/Statistics.jsx'
 import Dashboard from './Pages/Dashboard.jsx'
+import GadgetCards from './components/GadgetCards.jsx'
 
 
 const router = createBrowserRouter([
@@ -18,7 +19,14 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
-        element:<Home></Home>
+        element:<Home></Home>,
+        loader: ()=> fetch ('../categories.json'),
+        children:[
+          {
+            path:'/category/:category',
+          element:<GadgetCards></GadgetCards>,
+          },
+        ],
       },
       {
         path:'/statistics',
