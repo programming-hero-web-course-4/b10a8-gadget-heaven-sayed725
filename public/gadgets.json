@@ -1,0 +1,302 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Apple iPhone 15 Pro Max",
+      "product_image": "https://i.ibb.co.com/X7JGC3c/iphone-15-pro-max.jpg",
+      "category": "Smartphones",
+      "price": 1299,
+      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Bionic chip",
+        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+        "LiDAR Scanner",
+        "Up to 2TB storage"
+      ],
+      "availability": true,
+      "rating": 4.1
+    },
+    {
+      "product_id": 2,
+      "product_title": "Samsung Galaxy S24 Ultra",
+      "product_image": "https://i.ibb.co.com/yQfK2KF/Samsung-Galaxy-S24-ultra-Titanium-Gray-800x800.jpg",
+      "category": "Smartphones",
+      "price": 1199,
+      "description": "The ultimate Android experience.",
+      "specification": [
+        "6.8-inch Dynamic AMOLED 2X display",
+        "Snapdragon 8 Gen 3 processor",
+        "Quad-camera system (200MP Main, 12MP Ultrawide, 10MP Telephoto, 12MP Periscope Telephoto)",
+        "5000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 3,
+      "product_title": "Google Pixel 8 Pro",
+      "product_image": "https://i.ibb.co.com/GM6kYNz/Google-Pixel-8-Pro-Obsidian-2.jpg",
+      "category": "Smartphones",
+      "price": 999,
+      "description": "Pixel-perfect photography and AI-powered features.",
+      "specification": [
+        "6.7-inch OLED display",
+        "Google Tensor G3 processor",
+        "Triple-camera system (50MP Main, 48MP Telephoto, 12MP Ultrawide)",
+        "4900mAh battery"
+      ],
+      "availability": true,
+      "rating": 3.6
+    },
+    {
+      "product_id": 4,
+      "product_title": "OnePlus 12 Pro",
+      "product_image": "https://i.ibb.co.com/HqBQHV0/oneplsu-12-pro.png",
+      "category": "Smartphones",
+      "price": 899,
+      "description": "Fast and smooth performance.",
+      "specification": [
+        "6.7-inch Fluid AMOLED display",
+        "Snapdragon 8 Gen 3 processor",
+        "Triple-camera system (50MP Main, 48MP Ultrawide, 32MP Telephoto)",
+        "5000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.2
+    },
+    {
+        "product_id": 5,
+        "product_title": "Apple MacBook Pro 14",
+        "product_image": "https://i.ibb.co.com/CQsDc8z/Macbook-Pro-14.webp",
+        "category": "Laptops",
+        "price": 1999,
+        "description": "Powerful performance and stunning display.",
+        "specification": [
+          "14-inch Liquid Retina XDR display",
+          "Apple M2 Pro chip",
+          "Up to 32GB unified memory",
+          "Up to 2TB SSD storage"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 6,
+        "product_title": "Dell XPS 13 Plus",
+        "product_image": "https://i.ibb.co.com/ns90V4m/Dell-XPS-13-Plus.webp",
+        "category": "Laptops",
+        "price": 1499,
+        "description": "Sleek design and impressive performance.",
+        "specification": [
+          "13.4-inch OLED display",
+          "Intel Core i7-13700H processor",
+          "Up to 32GB LPDDR5X RAM",
+          "Up to 2TB SSD storage"
+        ],
+        "availability": true,
+        "rating": 4.2
+      },
+      {
+        "product_id": 7,
+        "product_title": "HP Spectre x360 14",
+        "product_image": "https://i.ibb.co.com/pbtfpVb/HP-Spectre-x360-14.webp",
+        "category": "Laptops",
+        "price": 1299,
+        "description": "Versatile 2-in-1 laptop.",
+        "specification": [
+          "14-inch OLED display",
+          "Intel Core i7-1360P processor",
+          "Up to 32GB LPDDR5 RAM",
+          "Up to 1TB SSD storage"
+        ],
+        "availability": true,
+        "rating": 4.4
+      },
+      {
+        "product_id": 8,
+        "product_title": "Apple AirPods Pro (2nd Generation)",
+        "product_image": "https://i.ibb.co.com/K9364Yr/Apple-Air-Pods-Pro-2nd-Generation.png",
+        "category": "Accessories",
+        "price": 249,
+        "description": "Immersive sound with Active Noise Cancellation.",
+        "specification": [
+          "Adaptive Transparency",
+          "Personalized Spatial Audio",
+          "Up to 6 hours of listening time"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 9,
+        "product_title": "Apple Magic Keyboard with Touch ID",
+        "product_image": "https://i.ibb.co.com/d0BCqz3/Apple-Magic-Keyboard-with-Touch-ID.jpg",
+        "category": "Accessories",
+        "price": 149,
+        "description": "Wireless keyboard with built-in Touch ID.",
+        "specification": [
+          "Numeric keypad",
+          "Backlit keys",
+          "USB-C charging port"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 10,
+        "product_title": "Anker PowerCore 20000 PD",
+        "product_image": "https://i.ibb.co.com/xmTWw1X/Anker-Power-Core-20000-PD.jpg",
+        "category": "Accessories",
+        "price": 49,
+        "description": "Portable charger with Power Delivery.",
+        "specification": [
+          "20000mAh battery capacity",
+          "Power Delivery 3.0",
+          "PowerIQ 3.0"
+        ],
+        "availability": true,
+        "rating": 4.3
+      },
+      {
+        "product_id": 11,
+        "product_title": "Apple Watch Series 9",
+        "product_image": "https://i.ibb.co.com/cr7Dkk8/Apple-Watch-Series-9.webp",
+        "category": "Smart Watches",
+        "price": 399,
+        "description": "Advanced health and fitness tracking.",
+        "specification": [
+          "Always-On Retina display",
+          "Crash Detection",
+          "Temperature sensing"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 12,
+        "product_title": "Samsung Galaxy Watch 6 Classic",
+        "product_image": "https://i.ibb.co.com/5n8XQ6t/galaxy-watch6-classic.webp",
+        "category": "Smart Watches",
+        "price": 359,
+        "description": "Elegant design and powerful features.",
+        "specification": [
+          "1.2-inch AMOLED display",
+          "Blood pressure monitoring",
+          "Long-lasting battery"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 13,
+        "product_title": "Garmin Fenix 7",
+        "product_image": "https://i.ibb.co.com/dW6p8sT/Garmin-Fenix-7.webp",
+        "category": "Smart Watches",
+        "price": 699,
+        "description": "Rugged outdoor smartwatch.",
+        "specification": [
+          "1.3-inch display",
+          "GPS, GLONASS, Galileo",
+          "Battery life up to 14 days"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 14,
+        "product_title": "Apple MacBook Air M2",
+        "product_image": "https://i.ibb.co.com/jZsY9sF/Apple-Mac-Book-Air-M2.webp",
+        "category": "MacBook",
+        "price": 999,
+        "description": "Thin, light, and powerful.",
+        "specification": [
+          "13.6-inch Liquid Retina display",
+          "M2 chip",
+          "Up to 24GB unified memory",
+          "Up to 2TB SSD storage"
+        ],
+        "availability": true,
+        "rating": 4.4
+      },
+      {
+        "product_id": 15,
+        "product_title": "Apple MacBook Pro 14",
+        "product_image": "https://i.ibb.co.com/CQsDc8z/Macbook-Pro-14.webp",
+        "category": "MacBook",
+        "price": 1999,
+        "description": "Powerful performance and stunning display.",
+        "specification": [
+          "14-inch Liquid Retina XDR display",
+          "M2 Pro chip",
+          "Up to 32GB unified memory",
+          "Up to 2TB SSD storage"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 16,
+        "product_title": "Apple MacBook Pro 16",
+        "product_image": "https://i.ibb.co.com/4WdQXdJ/Apple-Mac-Book-Pro-16.webp",
+        "category": "MacBook",
+        "price": 2499,
+        "description": "Ultimate performance and immersive display.",
+        "specification": [
+          "16-inch Liquid Retina XDR display",
+          "M2 Max chip",
+          "Up to 96GB unified memory",
+          "Up to 8TB SSD storage"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 17,
+        "product_title": "iPhone 15",
+        "product_image": "https://i.ibb.co.com/fqmqjmm/i-Phone-15.png",
+        "category": "iPhone",
+        "price": 799,
+        "description": "A powerful and affordable iPhone.",
+        "specification": [
+          "6.1-inch Super Retina XDR display",
+          "A16 Bionic chip",
+          "Dual-camera system (12MP Main, 12MP Ultrawide)",
+          "4800mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.2
+      },
+      {
+        "product_id": 18,
+        "product_title": "iPhone 15 Pro",
+        "product_image": "https://i.ibb.co.com/SdbKhns/i-Phone-15-Pro.jpg",
+        "category": "iPhone",
+        "price": 999,
+        "description": "A pro-level iPhone.",
+        "specification": [
+          "6.1-inch Super Retina XDR display",
+          "A17 Bionic chip",
+          "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+          "4800mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 19,
+        "product_title": "iPhone 15 Pro Max",
+        "product_image": "https://i.ibb.co.com/X7JGC3c/iphone-15-pro-max.jpg",
+        "category": "iPhone",
+        "price": 1299,
+        "description": "The ultimate iPhone experience.",
+        "specification": [
+          "6.7-inch Super Retina XDR display",
+          "A17 Bionic chip",
+          "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+          "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.9
+      }
+   
+  ]
