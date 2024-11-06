@@ -21,7 +21,7 @@
       "product_title": "Samsung Galaxy S24 Ultra",
       "product_image": "https://i.ibb.co.com/yQfK2KF/Samsung-Galaxy-S24-ultra-Titanium-Gray-800x800.jpg",
       "category": "Smartphones",
-      "price": 1199,
+      "price": 999,
       "description": "The ultimate Android experience.",
       "specification": [
         "6.8-inch Dynamic AMOLED 2X display",
@@ -117,7 +117,7 @@
         "product_title": "Apple AirPods Pro (2nd Generation)",
         "product_image": "https://i.ibb.co.com/K9364Yr/Apple-Air-Pods-Pro-2nd-Generation.png",
         "category": "Accessories",
-        "price": 249,
+        "price": 199,
         "description": "Immersive sound with Active Noise Cancellation.",
         "specification": [
           "Adaptive Transparency",
@@ -177,7 +177,7 @@
         "product_title": "Samsung Galaxy Watch 6 Classic",
         "product_image": "https://i.ibb.co.com/5n8XQ6t/galaxy-watch6-classic.webp",
         "category": "Smart Watches",
-        "price": 359,
+        "price": 299,
         "description": "Elegant design and powerful features.",
         "specification": [
           "1.2-inch AMOLED display",

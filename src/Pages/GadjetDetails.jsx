@@ -48,9 +48,9 @@ const GadjetDetails = () => {
             <h3 className='text-3xl font-bold'>Product Details</h3>
             <p className='mt-4'>Explore the latest gadgets that will take your experience to the next level. From smart devices to <br /> the coolest accessories, we have it all!</p>
            </div>
-           <div className='flex gap-8 p-8 w-10/12 mx-auto justify-between rounded-xl absolute top-[160px] left-[133px] z-10 bg-white shadow-xl'>
+           <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 p-8 w-10/12 mx-auto justify-between rounded-xl absolute top-[160px] left-[133px] z-10 bg-white shadow-xl'>
             <div className='border-2 rounded-xl'>
-                <img className='rounded-xl object-cover h-full' src={product_image} alt="" />
+                <img className='rounded-xl object-cover h-[500px] w-full' src={product_image} alt="" />
             </div>
             <div className='w-full flex flex-col gap-4'>
                 <h2 className='text-3xl font-semibold'>{product_title}</h2>
@@ -69,7 +69,7 @@ const GadjetDetails = () => {
                  size={24}
                 activeColor="#ffd700"></ReactStars> <p className=' bg-slate-100 px-2 py-1 rounded-3xl'>{currentRating}</p></div>
 
-               <div className='flex gap-4 items-center'>
+               <div className='flex flex-grow gap-4 items-center'>
                 <button onClick={()=>handleAddToCart(gadget)} className='btn bg-[#9538E2] text-white rounded-3xl'>Add To Cart <p><BsCart3 /></p></button>
                 <button disabled={isWishList} onClick={()=>handleAddToWishList(gadget)} className='btn text-2xl border-2 rounded-full p-3 '><FaRegHeart></FaRegHeart></button>
                </div>

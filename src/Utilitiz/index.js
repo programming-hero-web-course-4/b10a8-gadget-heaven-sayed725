@@ -15,10 +15,17 @@ else{
 
 const addToCart =(gadget)=>{
 const storedCartList = getStoredCart()
-storedCartList.push(gadget)
+const isExist = storedCartList.find(item=> item.product_id == gadget.product_id)
+
+if(isExist){
+    return toast.error('Item already added to Cart!')
+}
+else{
+    storedCartList.push(gadget)
 const storedCartListStr = JSON.stringify(storedCartList)
 localStorage.setItem('cart-list',storedCartListStr)
 toast.success('This item is added to your cart list.')
+}
 }
 
 
@@ -50,6 +57,6 @@ const getStoredWishList = ()=>{
     }
 
 
-export{addToCart, 
+export{addToCart, getStoredCart,
     addToWishList,getStoredWishList
 }

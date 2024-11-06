@@ -4,27 +4,27 @@
       "category": "All Product"
     },
     {
-      "id": 1,
+      "id": 2,
       "category": "Smartphones"
     },
     {
-      "id": 2,
+      "id": 3,
       "category": "Laptops"
     },
     {
-      "id": 3,
+      "id": 4,
       "category": "Accessories"
     },
     {
-      "id": 1,
+      "id": 5,
       "category": "Smart Watches"
     },
     {
-      "id": 2,
+      "id": 6,
       "category": "MacBook"
     },
     {
-      "id": 3,
+      "id": 7,
       "category": "iPhone"
     }
   ]
