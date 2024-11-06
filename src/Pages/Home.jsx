@@ -3,6 +3,7 @@ import Banner from '../components/Banner';
 import Heading from '../components/Heading';
 import Categories from '../components/Categories';
 import { Outlet, useLoaderData } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 const Home = () => {
     const categories = useLoaderData()

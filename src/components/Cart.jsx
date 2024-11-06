@@ -41,7 +41,7 @@ const sum = 0
 <button className="btn hidden" onClick={()=>document.getElementById('my_modal_5').showModal()}>open modal</button>
 <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box flex flex-col justify-center items-center">
-    <img className="h-[70px] w-[70px]" src="../../public/Group.png" alt="" />
+    <img className="h-[70px] w-[70px]" src="/Group.png" alt="" />
     <h3 className="font-bold text-2xl mt-7">Payment Successfully</h3>
     <p className="py-4">Thanks for purchasing.</p>
     <p>Total: ${totalCost}</p>

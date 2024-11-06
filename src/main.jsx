@@ -12,6 +12,7 @@ import GadgetCards from './components/GadgetCards.jsx'
 import GadjetDetails from './Pages/GadjetDetails.jsx'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Reviews from './Pages/Reviews.jsx'
 
 
 const router = createBrowserRouter([
@@ -51,6 +52,11 @@ const router = createBrowserRouter([
         path:'/gadget/:id',
         element:<GadjetDetails></GadjetDetails>,
         loader: ()=> fetch ('../gadgets.json'),
+      },
+      {
+        path:'reviews',
+        element:<Reviews></Reviews>
+        
       }
     ]
   }
