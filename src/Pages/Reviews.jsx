@@ -12,7 +12,7 @@ const Reviews = () => {
           usecase with a great value!
         </p>
         <input
-          className="py-10 px-[300px] mx-auto text-center rounded-3xl bg-slate-100 text-[#9538E2] text-2xl font-semibold"
+          className="py-10 sm:px-[300px] mx-auto text-center rounded-3xl bg-slate-100 text-[#9538E2] text-2xl font-semibold"
           type="text"
           placeholder="Add a Review?"
         />
@@ -23,11 +23,11 @@ const Reviews = () => {
             placeholder="Your Name"
           />
           <input
-            className="py-2  px-10 mx-auto rounded-xl ml-10 text-center font-semibold bg-slate-100"
+            className="py-2  px-10 mx-auto rounded-xl sm:ml-10 text-center font-semibold bg-slate-100"
             type="text"
             placeholder="Your Email"
           />
-          <button className="py-2 px-10 rounded-xl ml-10 bg-white text-[#9538E2] hover:bg-slate-300 border-2 border-[#2a0e41] hover:border-black">
+          <button className="py-2 px-10 rounded-xl sm:ml-10 bg-white text-[#9538E2] hover:bg-slate-300 border-2 border-[#2a0e41] hover:border-black">
             Upload Your Review
           </button>
         </div>

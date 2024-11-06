@@ -43,12 +43,12 @@ const GadjetDetails = () => {
 
 
     return (
-        <div className='relative pb-[400px]'>
-           <div className='text-center pt-8 pb-[240px] bg-[#9538E2] text-white'>
+        <div className='sm:relative sm:pb-[400px]'>
+           <div className='text-center pt-8 pb-10 sm:pb-[240px] bg-[#9538E2] text-white'>
             <h3 className='text-3xl font-bold'>Product Details</h3>
             <p className='mt-4'>Explore the latest gadgets that will take your experience to the next level. From smart devices to <br /> the coolest accessories, we have it all!</p>
            </div>
-           <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 p-8 w-10/12 mx-auto justify-between rounded-xl absolute top-[160px] left-[133px] z-10 bg-white shadow-xl'>
+           <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 p-8 w-10/12 mx-auto justify-between rounded-xl sm:absolute top-[160px] left-[133px] z-10 bg-white shadow-xl'>
             <div className='border-2 rounded-xl'>
                 <img className='rounded-xl object-cover h-[500px] w-full' src={product_image} alt="" />
             </div>

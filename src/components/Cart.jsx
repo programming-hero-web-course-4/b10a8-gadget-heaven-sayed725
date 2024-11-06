@@ -18,9 +18,9 @@ const sum = 0
 
   return (
     <div className="">
-      <div className="flex justify-between items-center py-10">
+      <div className="flex flex-col sm:flex-row justify-between items-center py-10">
         <p className="text-2xl font-bold">Cart</p>
-        <div className="flex items-center gap-6">
+        <div className="flex flex-col sm:flex-row items-center gap-6">
           <p className="text-2xl font-bold">
             Total cost: <span> $ {totalCost}</span>
           </p>
