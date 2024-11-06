@@ -34,22 +34,53 @@
     },
     {
       "product_id": 3,
-      "product_title": "Google Pixel 8 Pro",
-      "product_image": "https://i.ibb.co.com/GM6kYNz/Google-Pixel-8-Pro-Obsidian-2.jpg",
-      "category": "Smartphones",
-      "price": 999,
-      "description": "Pixel-perfect photography and AI-powered features.",
+      "product_title": "Apple MacBook Pro 14",
+      "product_image": "https://i.ibb.co.com/CQsDc8z/Macbook-Pro-14.webp",
+      "category": "Laptops",
+      "price": 1999,
+      "description": "Powerful performance and stunning display.",
       "specification": [
-        "6.7-inch OLED display",
-        "Google Tensor G3 processor",
-        "Triple-camera system (50MP Main, 48MP Telephoto, 12MP Ultrawide)",
-        "4900mAh battery"
+        "14-inch Liquid Retina XDR display",
+        "Apple M2 Pro chip",
+        "Up to 32GB unified memory",
+        "Up to 2TB SSD storage"
       ],
       "availability": true,
-      "rating": 3.6
+      "rating": 4.8
     },
     {
       "product_id": 4,
+      "product_title": "Apple AirPods Pro (2nd Generation)",
+      "product_image": "https://i.ibb.co.com/K9364Yr/Apple-Air-Pods-Pro-2nd-Generation.png",
+      "category": "Accessories",
+      "price": 199,
+      "description": "Immersive sound with Active Noise Cancellation.",
+      "specification": [
+        "Adaptive Transparency",
+        "Personalized Spatial Audio",
+        "Up to 6 hours of listening time"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 5,
+      "product_title": "Samsung Galaxy Watch 6 Classic",
+      "product_image": "https://i.ibb.co.com/5n8XQ6t/galaxy-watch6-classic.webp",
+      "category": "Smart Watches",
+      "price": 299,
+      "description": "Elegant design and powerful features.",
+      "specification": [
+        "1.2-inch AMOLED display",
+        "Blood pressure monitoring",
+        "Long-lasting battery"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+  
+    {
+      "product_id": 6,
       "product_title": "OnePlus 12 Pro",
       "product_image": "https://i.ibb.co.com/HqBQHV0/oneplsu-12-pro.png",
       "category": "Smartphones",
@@ -65,23 +96,56 @@
       "rating": 4.2
     },
     {
-        "product_id": 5,
-        "product_title": "Apple MacBook Pro 14",
-        "product_image": "https://i.ibb.co.com/CQsDc8z/Macbook-Pro-14.webp",
-        "category": "Laptops",
-        "price": 1999,
-        "description": "Powerful performance and stunning display.",
+      "product_id": 7,
+      "product_title": "Xiaomi 14 Pro",
+      "product_image": "https://i.ibb.co.com/GnV3bHR/Xiaomi-14.jpg",
+      "category": "Smartphones",
+      "price": 799,
+      "description": "Flagship features at an affordable price.",
+      "specification": [
+        "6.7-inch AMOLED display",
+        "Snapdragon 8 Gen 3 processor",
+        "Triple-camera system (50MP Main, 16MP Ultrawide, 8MP Telephoto)",
+        "5000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 8,
+      "product_title": "OPPO Find X7 Pro",
+      "product_image": "https://i.ibb.co.com/Q63H6n9/OPPO-Find-X7-Ultra-Dark-Blue-4040.jpg",
+      "category": "Smartphones",
+      "price": 899,
+      "description": "Stunning design and powerful performance.",
+      "specification": [
+        "6.8-inch AMOLED display",
+        "MediaTek Dimensity 9300 processor",
+        "Quad-camera system (50MP Main, 50MP Ultrawide, 16MP Telephoto, 8MP Periscope Telephoto)",
+        "4800mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+   
+      {
+        "product_id": 9,
+        "product_title": "Google Pixel 8 Pro",
+        "product_image": "https://i.ibb.co.com/GM6kYNz/Google-Pixel-8-Pro-Obsidian-2.jpg",
+        "category": "Smartphones",
+        "price": 999,
+        "description": "Pixel-perfect photography and AI-powered features.",
         "specification": [
-          "14-inch Liquid Retina XDR display",
-          "Apple M2 Pro chip",
-          "Up to 32GB unified memory",
-          "Up to 2TB SSD storage"
+          "6.7-inch OLED display",
+          "Google Tensor G3 processor",
+          "Triple-camera system (50MP Main, 48MP Telephoto, 12MP Ultrawide)",
+          "4900mAh battery"
         ],
         "availability": true,
-        "rating": 4.8
+        "rating": 3.6
       },
       {
-        "product_id": 6,
+        "product_id": 10,
         "product_title": "Dell XPS 13 Plus",
         "product_image": "https://i.ibb.co.com/ns90V4m/Dell-XPS-13-Plus.webp",
         "category": "Laptops",
@@ -97,7 +161,7 @@
         "rating": 4.2
       },
       {
-        "product_id": 7,
+        "product_id": 11,
         "product_title": "HP Spectre x360 14",
         "product_image": "https://i.ibb.co.com/pbtfpVb/HP-Spectre-x360-14.webp",
         "category": "Laptops",
@@ -112,23 +176,9 @@
         "availability": true,
         "rating": 4.4
       },
+     
       {
-        "product_id": 8,
-        "product_title": "Apple AirPods Pro (2nd Generation)",
-        "product_image": "https://i.ibb.co.com/K9364Yr/Apple-Air-Pods-Pro-2nd-Generation.png",
-        "category": "Accessories",
-        "price": 199,
-        "description": "Immersive sound with Active Noise Cancellation.",
-        "specification": [
-          "Adaptive Transparency",
-          "Personalized Spatial Audio",
-          "Up to 6 hours of listening time"
-        ],
-        "availability": true,
-        "rating": 4.9
-      },
-      {
-        "product_id": 9,
+        "product_id": 12,
         "product_title": "Apple Magic Keyboard with Touch ID",
         "product_image": "https://i.ibb.co.com/d0BCqz3/Apple-Magic-Keyboard-with-Touch-ID.jpg",
         "category": "Accessories",
@@ -143,7 +193,7 @@
         "rating": 4.6
       },
       {
-        "product_id": 10,
+        "product_id": 13,
         "product_title": "Anker PowerCore 20000 PD",
         "product_image": "https://i.ibb.co.com/xmTWw1X/Anker-Power-Core-20000-PD.jpg",
         "category": "Accessories",
@@ -158,7 +208,7 @@
         "rating": 4.3
       },
       {
-        "product_id": 11,
+        "product_id": 14,
         "product_title": "Apple Watch Series 9",
         "product_image": "https://i.ibb.co.com/cr7Dkk8/Apple-Watch-Series-9.webp",
         "category": "Smart Watches",
@@ -172,23 +222,9 @@
         "availability": true,
         "rating": 4.8
       },
+     
       {
-        "product_id": 12,
-        "product_title": "Samsung Galaxy Watch 6 Classic",
-        "product_image": "https://i.ibb.co.com/5n8XQ6t/galaxy-watch6-classic.webp",
-        "category": "Smart Watches",
-        "price": 299,
-        "description": "Elegant design and powerful features.",
-        "specification": [
-          "1.2-inch AMOLED display",
-          "Blood pressure monitoring",
-          "Long-lasting battery"
-        ],
-        "availability": true,
-        "rating": 4.5
-      },
-      {
-        "product_id": 13,
+        "product_id": 15,
         "product_title": "Garmin Fenix 7",
         "product_image": "https://i.ibb.co.com/dW6p8sT/Garmin-Fenix-7.webp",
         "category": "Smart Watches",
@@ -203,7 +239,7 @@
         "rating": 4.9
       },
       {
-        "product_id": 14,
+        "product_id": 16,
         "product_title": "Apple MacBook Air M2",
         "product_image": "https://i.ibb.co.com/jZsY9sF/Apple-Mac-Book-Air-M2.webp",
         "category": "MacBook",
@@ -219,7 +255,7 @@
         "rating": 4.4
       },
       {
-        "product_id": 15,
+        "product_id": 17,
         "product_title": "Apple MacBook Pro 14",
         "product_image": "https://i.ibb.co.com/CQsDc8z/Macbook-Pro-14.webp",
         "category": "MacBook",
@@ -235,7 +271,7 @@
         "rating": 4.7
       },
       {
-        "product_id": 16,
+        "product_id": 18,
         "product_title": "Apple MacBook Pro 16",
         "product_image": "https://i.ibb.co.com/4WdQXdJ/Apple-Mac-Book-Pro-16.webp",
         "category": "MacBook",
@@ -251,7 +287,7 @@
         "rating": 4.9
       },
       {
-        "product_id": 17,
+        "product_id": 19,
         "product_title": "iPhone 15",
         "product_image": "https://i.ibb.co.com/fqmqjmm/i-Phone-15.png",
         "category": "iPhone",
@@ -267,7 +303,7 @@
         "rating": 4.2
       },
       {
-        "product_id": 18,
+        "product_id": 20,
         "product_title": "iPhone 15 Pro",
         "product_image": "https://i.ibb.co.com/SdbKhns/i-Phone-15-Pro.jpg",
         "category": "iPhone",
@@ -283,7 +319,7 @@
         "rating": 4.6
       },
       {
-        "product_id": 19,
+        "product_id": 21,
         "product_title": "iPhone 15 Pro Max",
         "product_image": "https://i.ibb.co.com/X7JGC3c/iphone-15-pro-max.jpg",
         "category": "iPhone",

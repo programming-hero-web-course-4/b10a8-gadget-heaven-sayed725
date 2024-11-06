@@ -57,6 +57,11 @@ const getStoredWishList = ()=>{
     }
 
 
+    const removeCart = ()=>{
+        localStorage.removeItem('cart-list')
+    }
+
+
 export{addToCart, getStoredCart,
-    addToWishList,getStoredWishList
+    addToWishList,getStoredWishList,removeCart
 }

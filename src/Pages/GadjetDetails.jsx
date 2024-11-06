@@ -70,7 +70,7 @@ const GadjetDetails = () => {
                 activeColor="#ffd700"></ReactStars> <p className=' bg-slate-100 px-2 py-1 rounded-3xl'>{currentRating}</p></div>
 
                <div className='flex flex-grow gap-4 items-center'>
-                <button onClick={()=>handleAddToCart(gadget)} className='btn bg-[#9538E2] text-white rounded-3xl'>Add To Cart <p><BsCart3 /></p></button>
+                <button onClick={()=>handleAddToCart(gadget)} className='btn bg-[#9538E2] text-white rounded-3xl hover:text-black'>Add To Cart <p><BsCart3 /></p></button>
                 <button disabled={isWishList} onClick={()=>handleAddToWishList(gadget)} className='btn text-2xl border-2 rounded-full p-3 '><FaRegHeart></FaRegHeart></button>
                </div>
                </div> 

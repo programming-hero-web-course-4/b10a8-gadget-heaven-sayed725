@@ -1,6 +1,20 @@
 import { RiSortDesc } from "react-icons/ri";
 import CartDetails from "./CartDetails";
-const Cart = ({carts , handleCartSort}) => {
+import { useEffect, useState } from "react";
+const Cart = ({carts , handleCartSort , handlePurchase}) => {
+
+    const [isActive, setIsActive] = useState(true)
+
+    useEffect(()=>{
+        if(carts.length>0){
+            setIsActive(false)
+        }
+    },[carts])
+
+   
+
+const sum = 0
+ const totalCost = carts.reduce((sum,carts)=>sum+carts.price,0)
 
   return (
     <div className="">
@@ -8,7 +22,7 @@ const Cart = ({carts , handleCartSort}) => {
         <p className="text-2xl font-bold">Cart</p>
         <div className="flex items-center gap-6">
           <p className="text-2xl font-bold">
-            Total cost: <span>999.99 $</span>
+            Total cost: <span> $ {totalCost}</span>
           </p>
           <div
             className="w-[210px] flex rounded-full bg-gradient-to-r from-purple-500 via-orange-300 to-purple-500 p-1 shadow-lg"
@@ -17,9 +31,30 @@ const Cart = ({carts , handleCartSort}) => {
             Sort by Price <RiSortDesc></RiSortDesc>
             </button>
           </div>
-          <button className="btn bg-gradient-to-r from-purple-600 via-orange-300 to-purple-600 rounded-full text-white text-xl font-bold px-11 py-2 hover:text-black">Purchase</button>
+          <button onClick={()=>document.getElementById('my_modal_5').showModal()} disabled={isActive}
+           className="btn bg-gradient-to-r from-purple-600 via-orange-300 to-purple-600 rounded-full text-white text-xl font-bold px-11 py-2 hover:text-black">Purchase</button>
         </div>
       </div>
+
+     <div>
+        {/* Open the modal using document.getElementById('ID').showModal() method */}
+<button className="btn hidden" onClick={()=>document.getElementById('my_modal_5').showModal()}>open modal</button>
+<dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
+  <div className="modal-box flex flex-col justify-center items-center">
+    <img className="h-[70px] w-[70px]" src="../../public/Group.png" alt="" />
+    <h3 className="font-bold text-2xl mt-7">Payment Successfully</h3>
+    <p className="py-4">Thanks for purchasing.</p>
+    <p>Total: ${totalCost}</p>
+    <div className="modal-action">
+      <form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button onClick={handlePurchase}
+        className="btn rounded-full">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+     </div>
 
 
       <div className="pb-[100px]">

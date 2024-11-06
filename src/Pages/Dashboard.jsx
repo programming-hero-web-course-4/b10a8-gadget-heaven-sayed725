@@ -2,23 +2,36 @@ import React, { useEffect, useState } from "react";
 import "react-tabs/style/react-tabs.css";
 import Cart from "../components/Cart";
 import Wishlist from "../components/Wishlist";
-import { getStoredCart, getStoredWishList } from "../Utilitiz";
-import { useLoaderData } from "react-router-dom";
+import { getStoredCart, getStoredWishList, removeCart } from "../Utilitiz";
+import { useLoaderData, useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
     const data = useLoaderData()
     const[isActive,setIsActive]= useState(true)
     const [carts , setCarts] = useState([])
     const [wishLists , setWishLists] = useState([])
+    const navigate = useNavigate()
+
+
+
+    const handlePurchase = ()=>{
+       removeCart()
+       setCarts([])
+       navigate('/')
+
+     }
+
+
+
 
     const handleCartSort = ()=>{
-        const sortedCartList = [...data].sort((a,b)=>b.price-a.price);
+        const sortedCartList = [...carts].sort((a,b)=>b.price-a.price);
         setCarts(sortedCartList)
     }
 
 
     const handleWishListSort = ()=>{
-        const sortedWishList = [...data].sort((a,b)=>b.price-a.price);
+        const sortedWishList = [...wishLists].sort((a,b)=>b.price-a.price);
         setWishLists(sortedWishList)
     }
 
@@ -54,7 +67,7 @@ const Dashboard = () => {
 
      <div className="w-10/12 mx-auto">
      {
-        isActive? <Cart carts={carts} handleCartSort={handleCartSort}></Cart> : <Wishlist wishLists={wishLists} handleWishListSort={handleWishListSort}></Wishlist>
+        isActive? <Cart carts={carts} handleCartSort={handleCartSort} handlePurchase={handlePurchase}></Cart> : <Wishlist wishLists={wishLists} handleWishListSort={handleWishListSort}></Wishlist>
       }
      </div>
     

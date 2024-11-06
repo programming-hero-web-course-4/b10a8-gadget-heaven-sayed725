@@ -1,6 +1,7 @@
 import { RiSortDesc } from "react-icons/ri";
 import WishListDetails from "./WishListDetails";
 const Wishlist = ({ wishLists , handleWishListSort }) => {
+   
   return (
     <div>
       <div className="flex justify-between items-center py-10">
