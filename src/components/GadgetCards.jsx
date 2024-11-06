@@ -6,7 +6,6 @@ const GadgetCards = () => {
     const {category} = useParams()
     const data = useLoaderData()
    const [gadgets , setGadgets] = useState([])
-   console.log(category)
    useEffect(()=>{
     if(category){
         const filteredByCategory = [...data].filter(gadget=>gadget.category === category)
