@@ -27,7 +27,7 @@ Welcome to this project. This page is a React-based application where users can 
 ### I have used local storage for handling and managing data.
 
 
-### 5 features of your website/project
+### 5 features of this website/project
 
 - There are few Category Buttons in home sidebar by clicking it will categories the product by different types.
 - There is a Shop now button by clicking it user can navigate to direct dashboard section. 
